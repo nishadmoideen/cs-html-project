@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Monsoon Animal Habitat and Petting Zoo - Reservations</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link href="Main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!--header-->
+    <header class="head">
+      <h3>Monsoon Animal Habitat and Petting Zoo</h3>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="animals.html">See the Animals</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="location.html">Location</a></li>
+      </ul>
+    </nav>
+<!--header-->
+<div class="mainreserve">
+<div class="reserve ">
+  <div class="formintro">
+    <br>
+    <span class="headertext"><b>Reservations</b></span>
+  </div>
+  <div class="form">
+    <form action="http://someserver.url" class="reserve">
+      <fieldset>
+        <legend>Order Info (Pay at Venue)</legend>
+        <label>Name:<br>
+          <input type="text" name="name" placeholder="Name of party host" required="required">
+        </label><br>
+        <label>Email Address:<br>
+          <input type="text" name="email"
+                 placeholder="Email for Reservation" required="required">
+        </label><br>
+        <label>Party of: </label>
+        <select name="attendingPersons" size="1">
+          <option value="1" selected="selected">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select> <br>
+        <label>Date: </label>
+        <input type="date"><br>
+        <label>Time: (Hours from 9:00 AM to 7:30 PM)</label>
+        <input type="time" min="9:00" max="19:30"><br>
+        <label>Tour Type: </label><br>
+        <input type="radio">
+        <fieldset>
+          <legend>Food Reservations</legend>
+          <input id="lunch" type="checkbox" name="food" value="lunch">
+          <label for="lunch">Lunch</label>
+
+          <input id="dinner" type="checkbox" name="food" value="dinner">
+          <label for="dinner">Dinner</label>
+        </fieldset><br>
+        <button type="submit">Submit Reservation Request</button>
+      </fieldset>
+    </form>
+  </div>
+</div>
+
+<div class="costs">
+  <p>
+    <span class="headertext"><b>Admissions</b><br></span>
+    All those that enter MUST have a reservation and agree to sign a waiver at the premises!<br>
+    <blockquote>
+      Adults (16-24): &dollar;7 or &#x20B9;500 <br>
+      Kids (4-15): &dollar;5 or &#x20B9;300<br>
+      Senior (65+): &dollar;5 or &#x20B9;300 <br>
+      Kids under 3 are free!
+    </blockquote>
+  </p>
+  <img src="images/Cage.png" alt="Image of the Bird Cage" width="400"><br>
+  <span class="pstyle">Our Bird Cage!</span><br>
+</div>
+</div>
+
+<footer>
+  <div class="foot">
+    <p>Aahil N</p>
+    <img src="images/Monsoon%20-logos_white.png" alt="Elephant/River Logo" width="100" height="100">
+    <p>&copy;2021</p>
+    <!--Yandex Translator Start (It worked best for my purposes since was a simple copy/paste and free.) -->
+    <div id="ytWidget"></div>
+    <script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang=en&widgetTheme=dark&autoMode=false" type="text/javascript"></script>
+    <!--Yandex Translator End-->
+  </div>
+</footer>
+</body>
+</html>
